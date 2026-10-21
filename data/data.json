@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "email": "alex@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Sam",
+      "email": "sam@example.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "CLI Tool",
+      "description": "Python project tracker",
+      "due_date": "2026-12-01",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Website",
+      "description": "Team landing page",
+      "due_date": "2026-11-30",
+      "owner_id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Implement add-task",
+      "status": "done",
+      "project_id": 1,
+      "assigned_to_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Write tests",
+      "status": "in-progress",
+      "project_id": 1,
+      "assigned_to_id": 2
+    },
+    {
+      "id": 3,
+      "title": "Design homepage",
+      "status": "todo",
+      "project_id": 2,
+      "assigned_to_id": 2
+    }
+  ]
+}
